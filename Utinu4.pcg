@@ -2,7 +2,7 @@ PCGVERSION:2.0
 
 # System Information
 CAMPAIGN:Dungeons & Dragons - Core Books|CAMPAIGN:Spell Compendium|CAMPAIGN:Complete Arcane|CAMPAIGN:Races of the Dragon|CAMPAIGN:Dora Campaign Homebrew
-VERSION:6.03.06
+VERSION:6.03.05
 ROLLMETHOD:3|EXPRESSION:roll(5,6,top(3))
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
@@ -24,7 +24,7 @@ ALLOWDEBT:N
 AUTORESIZEGEAR:Y
 
 # Character Bio
-CHARACTERNAME:Utinu en'Vaecaesini
+CHARACTERNAME:Utinu en'Vaecaesini (4)
 TABNAME:
 PLAYERNAME:Nick
 HEIGHT:65
