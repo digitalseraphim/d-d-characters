@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Dungeons & Dragons - Core Books|CAMPAIGN:Spell Compendium|CAMPAIGN:Complete Arcane|CAMPAIGN:Dragon Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Dora Campaign Homebrew
+CAMPAIGN:Dungeons & Dragons - Core Books|CAMPAIGN:Complete Mage|CAMPAIGN:Complete Arcane|CAMPAIGN:Spell Compendium|CAMPAIGN:Frostburn|CAMPAIGN:Races of the Dragon|CAMPAIGN:Dragon Magic|CAMPAIGN:Dora Campaign Homebrew
 VERSION:6.04.00
 ROLLMETHOD:1|EXPRESSION:18
 PURCHASEPOINTS:N
@@ -60,7 +60,7 @@ RACE:Companion ~ Phynxkin
 
 # Character Class(es)
 CLASS:Animal|LEVEL:1|SKILLPOOL:4|SPELLBASE:None|CANCASTPERDAY:
-CLASSABILITIESLEVEL:Animal=1|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Animal=1|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:0
