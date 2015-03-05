@@ -246,7 +246,7 @@ CHARACTERDMNOTES:
 # Kits
 
 # Character Master/Follower
-FOLLOWER:Trey|TYPE:Familiar|RACE:COMPANION ~ PHYNXKIN|HITDICE:0|FILE:Trey.pcg
+FOLLOWER:Trey (7-Trick)|TYPE:Familiar|RACE:COMPANION ~ PHYNXKIN|HITDICE:0|FILE:Trey7-Trick.pcg
 
 # Character Notes Tab
 
