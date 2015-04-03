@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Dungeons & Dragons - Core Books|CAMPAIGN:Complete Mage|CAMPAIGN:Frostburn|CAMPAIGN:Spell Compendium|CAMPAIGN:Complete Arcane|CAMPAIGN:Dragon Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Dora Campaign Homebrew
+CAMPAIGN:Dungeons & Dragons - Core Books|CAMPAIGN:Complete Mage|CAMPAIGN:Spell Compendium|CAMPAIGN:Frostburn|CAMPAIGN:Complete Arcane|CAMPAIGN:Dragon Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Dora Campaign Homebrew
 VERSION:6.04.01
 ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
@@ -24,7 +24,7 @@ ALLOWDEBT:N
 AUTORESIZEGEAR:Y
 
 # Character Bio
-CHARACTERNAME:Trey
+CHARACTERNAME:Trey (8)
 TABNAME:
 PLAYERNAME:
 HEIGHT:0
@@ -147,7 +147,7 @@ CHARACTERDMNOTES:
 KIT:Familiar ~ Phynxkin
 
 # Character Master/Follower
-MASTER:Utinu en'Vaecaesini (7)|TYPE:Familiar|HITDICE:0|FILE:Utinu7.pcg|ADJUSTMENT:0
+MASTER:Utinu en'Vaecaesini (8)|TYPE:Familiar|HITDICE:0|FILE:Utinu8.pcg|ADJUSTMENT:0
 
 # Character Notes Tab
 
