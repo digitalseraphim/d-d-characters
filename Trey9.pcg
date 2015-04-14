@@ -24,7 +24,7 @@ ALLOWDEBT:N
 AUTORESIZEGEAR:Y
 
 # Character Bio
-CHARACTERNAME:Trey (8)
+CHARACTERNAME:Trey (9)
 TABNAME:
 PLAYERNAME:
 HEIGHT:0
@@ -147,7 +147,7 @@ CHARACTERDMNOTES:
 KIT:Familiar ~ Phynxkin
 
 # Character Master/Follower
-MASTER:Utinu en'Vaecaesini (8)|TYPE:Familiar|HITDICE:0|FILE:Utinu8.pcg|ADJUSTMENT:0
+MASTER:Utinu en'Vaecaesini (9)|TYPE:Familiar|HITDICE:0|FILE:Utinu9.pcg|ADJUSTMENT:0
 
 # Character Notes Tab
 
