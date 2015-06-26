@@ -1,9 +1,9 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Dungeons & Dragons - Core Books|CAMPAIGN:Complete Mage|CAMPAIGN:Frostburn|CAMPAIGN:Complete Arcane|CAMPAIGN:Sandstorm|CAMPAIGN:Spell Compendium|CAMPAIGN:Races of the Dragon|CAMPAIGN:Dragon Magic|CAMPAIGN:Dora Campaign Homebrew
+CAMPAIGN:Dungeons & Dragons - Core Books|CAMPAIGN:Complete Mage|CAMPAIGN:Sandstorm|CAMPAIGN:Frostburn|CAMPAIGN:Spell Compendium|CAMPAIGN:Complete Arcane|CAMPAIGN:Dragon Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Dora Campaign Homebrew
 VERSION:6.04.01
-ROLLMETHOD:1|EXPRESSION:18
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm

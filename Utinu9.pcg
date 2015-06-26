@@ -1,9 +1,9 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Dungeons & Dragons - Core Books|CAMPAIGN:Complete Mage|CAMPAIGN:Frostburn|CAMPAIGN:Complete Arcane|CAMPAIGN:Sandstorm|CAMPAIGN:Spell Compendium|CAMPAIGN:Races of the Dragon|CAMPAIGN:Dragon Magic|CAMPAIGN:Dora Campaign Homebrew
+CAMPAIGN:Dungeons & Dragons - Core Books|CAMPAIGN:Complete Mage|CAMPAIGN:Sandstorm|CAMPAIGN:Frostburn|CAMPAIGN:Spell Compendium|CAMPAIGN:Complete Arcane|CAMPAIGN:Dragon Magic|CAMPAIGN:Races of the Dragon|CAMPAIGN:Dora Campaign Homebrew
 VERSION:6.04.01
-ROLLMETHOD:1|EXPRESSION:18
+ROLLMETHOD:3|EXPRESSION:roll(4,6,top(3))
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm
@@ -88,7 +88,7 @@ SKILL:Appraise|OUTPUTORDER:1|
 SKILL:Balance|OUTPUTORDER:2|
 SKILL:Bluff|OUTPUTORDER:3|
 SKILL:Climb|OUTPUTORDER:4|
-SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Silver Dragon Blood Sorcerer (PC)|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sorcerer|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Silver Dragon Blood Sorcerer (PC)|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Control Shape|OUTPUTORDER:6|
 SKILL:Craft (Calligraphy)|OUTPUTORDER:7|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:7.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Untrained)|OUTPUTORDER:8|
@@ -103,7 +103,7 @@ SKILL:Heal|OUTPUTORDER:16|
 SKILL:Hide|OUTPUTORDER:17|
 SKILL:Intimidate|OUTPUTORDER:18|
 SKILL:Jump|OUTPUTORDER:19|
-SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Silver Dragon Blood Sorcerer (PC)|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sorcerer|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Arcana)|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Silver Dragon Blood Sorcerer (PC)|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:21|
 SKILL:Listen|OUTPUTORDER:22|
 SKILL:Literacy|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:2.0|COST:1|CLASSSKILL:Y]
@@ -111,7 +111,7 @@ SKILL:Move Silently|OUTPUTORDER:24|
 SKILL:Ride|OUTPUTORDER:25|
 SKILL:Search|OUTPUTORDER:26|
 SKILL:Sense Motive|OUTPUTORDER:27|
-SKILL:Spellcraft|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Silver Dragon Blood Sorcerer (PC)|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Sorcerer|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Silver Dragon Blood Sorcerer (PC)|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Spot|OUTPUTORDER:29|
 SKILL:Survival|OUTPUTORDER:30|
 SKILL:Swim|OUTPUTORDER:31|
@@ -134,7 +134,7 @@ USERPOOL:Draconic Selection|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Draconic Power (Silver)|TYPE:Draconic|DESC:You have greater power when manipulating the energies of your heritage.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Draconic Toughness|TYPE:Draconic|DESC:Your draconic nature reinforces your body as you embrace your heritage.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Draconic Vigor|TYPE:Draconic|DESC:You gain some of the vitality of your draconic ancestry when casting spells.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Ranged Spell|TYPE:General.Fighter|DESC:You are especially good at using this specified weapon.&pipe;!PRERULE&colon;1,DisplayFullFeat|DESC:Choose one type of weapon, such as greataxe. You can also choose unarmed strike or grapple (or ray, if you are a spellcaster) as your weapon for purposes of this feat. You are especially good at using this weapon. (If you have chosen ray, you are especially good with rays, such as the one produced by the ray of frost spell.)&pipe;PRERULE&colon;1,DisplayFullFeat
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Ranged Spell Weapon Focus|TYPE:General|DESC:You are especially good at using this specified weapon.&pipe;!PRERULE&colon;1,DisplayFullFeat|DESC: You are especially good at using ranged spells.&pipe;PRERULE&colon;1,DisplayFullFeat
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Region ~ None|TYPE:Region
 USERPOOL:Region|POOLPOINTS:0.0
@@ -164,6 +164,7 @@ EQUIPNAME:Lantern, Hooded|OUTPUTORDER:18|COST:7|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOM
 EQUIPNAME:Launch Bolt (0)|OUTPUTORDER:28|COST:0|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Lesser Orb of Cold (1)|OUTPUTORDER:29|COST:0|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Oil (1 Pt. Flask)|OUTPUTORDER:11|COST:0.1|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Orb of Cold (4)|OUTPUTORDER:31|COST:0|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Paper (Sheet)|OUTPUTORDER:21|COST:0.4|WT:0.0|QUANTITY:10.0|NOTE:
 EQUIPNAME:Pouch, Belt|OUTPUTORDER:7|COST:1|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Pouch, Belt$KEY=Pouch (Belt)]
 EQUIPNAME:Quarterstaff|OUTPUTORDER:3|COST:0.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quarterstaff|DATA:NAME=Quarterstaff$EQMOD=WOOD$ALTEQMOD=WOOD]
@@ -192,6 +193,7 @@ EQUIPSET:Carried|ID:0.1.101|VALUE:Ice Knife Shatter|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.102|VALUE:Launch Bolt (0)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.103|VALUE:Lesser Orb of Cold (1)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.104|VALUE:Ray of Ice(2)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.105|VALUE:Orb of Cold (4)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.81|VALUE:Pouch, Belt|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch, Belt|ID:0.1.81.02|VALUE:Ink (1 Oz. Vial)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch, Belt|ID:0.1.81.03|VALUE:Inkpen|QUANTITY:1.0|USETEMPMODS:Y
